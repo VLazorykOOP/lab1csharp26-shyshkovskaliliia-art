@@ -16,7 +16,7 @@ namespace Lab1
             while (true)
             {
                 Console.Clear(); 
-                Console.WriteLine("Лабораторна №1");
+                Console.WriteLine("Лабораторна №1 C#");
                 Console.WriteLine("1. Площа рівностороннього трикутника");
                 Console.WriteLine("2. Перевірка парності числа");
                 Console.WriteLine("3. Перевірка точки в області");
@@ -24,7 +24,6 @@ namespace Lab1
                 Console.WriteLine("5. Різниця двох чисел");
                 Console.WriteLine("6. Обчислення виразу");
                 Console.WriteLine("0. Вихід");
-                Console.WriteLine("-------------------------------------");
                 Console.Write("Оберіть номер завдання: ");
 
                 if (!int.TryParse(Console.ReadLine(), out int choice))
@@ -66,4 +65,5 @@ namespace Lab1
             Console.ReadKey();
         }
     }
+
 }
